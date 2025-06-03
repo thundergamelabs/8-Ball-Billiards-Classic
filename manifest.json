@@ -3,10 +3,10 @@
   "description": " Enjoy a smooth and realistic billiards game where you can play solo against the computer or challenge a friend in 2-player mode.Perfect aim, clean visuals, and addictive gameplay make it a must-play for pool ",
   "dir": "ltr",
   "display": "standalone",
-  "name": "Shoot-Robbers",
+  "name": "8 Ball Billiards Classic",
   "orientation": "any",
   "scope": "/",
-  "short_name": "Shoot-Robbers",
+  "short_name": "8 Ball Billiards Classic",
   "start_url": "/",
   "theme_color": "#ffffff",
   "categories": [
@@ -48,7 +48,7 @@
   ],
   "shortcuts": [
     {
-      "name": "Shoot-Robbers",
+      "name": "8 Ball Billiards Classic",
       "url": "",
       "description": "Enjoy a smooth and realistic billiards game where you can play solo against the computer or challenge a friend in 2-player mode.Perfect aim, clean visuals, and addictive gameplay make it a must-play for pool"
     }
