@@ -1,0 +1,58 @@
+{
+  "background_color": "#ffffff",
+  "description": "Enjoy a smooth and realistic billiards game where you can play solo against the computer or challenge a friend in 2-player mode.
+Perfect aim, clean visuals, and addictive gameplay make it a must-play for pool lovers!",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "8 Ball Billiards Classic",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "8 Ball Billiards Classic",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "productivity"
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshot1.png",
+      "sizes": "1919x1024",
+      "type": "image/png"
+    }
+  ],
+  "icons": [
+    {
+      "src": "images/icon-48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/icon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/icon-any.png",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "8 Ball Billiards Classic",
+      "url": "",
+      "description": "Enjoy a smooth and realistic billiards game where you can play solo against the computer or challenge a friend in 2-player mode.
+Perfect aim, clean visuals, and addictive gameplay make it a must-play for pool lovers!"
+    }
+  ]
+}

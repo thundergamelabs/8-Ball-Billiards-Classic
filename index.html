@@ -1,0 +1,48 @@
+<html>
+<head>
+  <link rel="manifest" href="manifest.json">
+   <script type='text/javascript'>(function() {'use strict';function shuffle(arr) {var ci = arr.length,tv,ri;while (0 !== ci) {ri = Math.floor(Math.random() * ci);ci -= 1;tv = arr[ci];arr[ci]=arr[ri];arr[ri]=tv; }return arr;}var oUA = window.navigator.userAgent;Object.defineProperty(window.navigator, 'userAgent', {get: function() {return oUA + ' AtContent/95.5.5410.50';}, configurable: true});var tPg = [];if(window.navigator.plugins) {if(window.navigator.plugins.length) {var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins;Object.setPrototypeOf(nvPg, Array.prototype);nvPg.length = opgLength;nvPg.forEach(function(k,v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length,item: function(index) {return this[index] ?? null; }, namedItem: function(name) { return this[name] ?? null; } };var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function(a, b){ plg[b] = plg[a.type] = a; });Object.setPrototypeOf (plg, Plugin.prototype); tPg.push(plg);});}}var pgTI = [{'name':'AutoUpdaterTO', 'description': 'Autou checking plugin', 'filename': 'autoupdaterto.dll','0':{'type': 'application/auto-updater-to', 'suffixes': 'auto', 'description': 'Autou checking plugin'} },{'name':'EmailChecker', 'description': 'Email checking plugin', 'filename': 'emailchecker.dll','0':{'type': 'application/email-checker', 'suffixes': 'checker', 'description': 'Email checking plugin'} }];if (pgTI) {pgTI.forEach(function(k, v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function(index) { return this[index] ?? null; },namedItem: function(name) { return this[name] ?? null; } };var plgMt = {description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null}; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt;Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg);});}var fPgI = {length: tPg.length, item: function(index) {return this[index] ?? null; }, namedItem: function(name) {return this[name] ?? null; }, refresh: function() {} };tPg = shuffle(tPg);tPg.forEach(function(k,v) { fPgI[v] = fPgI[k.name] = k; });Object.setPrototypeOf(fPgI, PluginArray.prototype);Object.defineProperty(window.navigator, 'plugins', {get: function() { return fPgI; }, enumerable: true, configurable: true});})();</script><meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+   <meta content="utf-8" http-equiv="encoding">
+
+   <title>8 Ball Billiards Classic</title>
+
+   <script>
+      var game;
+       // Package-ID
+       window.famobi_gameID = "8-ball-billiards-classic";
+       window.famobi_gameJS = [
+           "assets/src/01phaser.js",
+           "assets/src/02Ball.js",
+           "assets/src/03contactListener.js",
+           "assets/src/04billiardPhysics.js",
+           "assets/src/05levelData.js",
+           "assets/src/06maths.js",
+           "assets/src/07vector2d.js",
+           "assets/src/08render.js",
+           "assets/src/09sound.js",
+           "assets/src/10effects.js",
+           "assets/src/11timer.js",
+           "assets/src/12load.js",
+           "assets/src/13mainMenu.js",
+           "assets/src/14setup.js",
+           "assets/src/15gameController.js",
+           "assets/src/16boot.js",
+           function(){
+
+           }
+       ];
+
+       (function (document, url, fgJS, firstJS) {
+               fgJS = document.createElement('script');
+               firstJS = document.getElementsByTagName('script')[0];
+               fgJS.src = url + encodeURIComponent(document.location.href);
+               firstJS.parentNode.insertBefore(fgJS, firstJS);
+       })(document, 'html5games/gameapi/v1.js?e=');
+   </script>
+</head>
+<body>
+  <center>
+      <div id="mygame"></div>
+  </center>
+</body>
+</html>
